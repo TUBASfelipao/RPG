@@ -1,6 +1,10 @@
 body {
+    width: 75%;
     color: rgb(255, 255, 255);
     background-color: rgb(51, 51, 51);
+    border: solid;
+    border-style: dashed;
+    margin: auto;
 }
 #guts {
     width: 100%;    
@@ -9,12 +13,18 @@ ul{
     display: inline;
     margin:  0 0 0 15;
 }
-#linkhistoria{
+a{
+    display: absolute;
     text-transform: uppercase;
     color: black;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+    transform: 1s all;
+}
+a:hover{
+    text-transform: scale(1.2);
+    color:aquamarine;
 }
 h1 {
     text-align: center;
