@@ -5,8 +5,12 @@ body {
 #guts {
     width: 100%;    
 }
-#slr{
-    width: 100%;
+#linkhistoria{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 h1 {
     text-align: center;
@@ -24,4 +28,7 @@ p {
 h3 {
     text-align: center;
     padding: 20px;
+}
+#slr{
+    width: 100%;
 }
