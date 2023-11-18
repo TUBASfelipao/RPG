@@ -14,16 +14,17 @@ ul{
     margin:  0 0 0 15;
 }
 a{
-    display: absolute;
+    border: 3px gray solid;
+    border-radius: 4px;
     text-transform: uppercase;
     color: black;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
-    transform: 1s all;
+    transition: 1s all;
 }
 a:hover{
-    text-transform: scale(1.2);
+    font-size: 25px;
     color:aquamarine;
 }
 h1 {
