@@ -1,0 +1,27 @@
+body {
+    color: rgb(255, 255, 255);
+    background-color: rgb(51, 51, 51);
+}
+#guts {
+    width: 100%;    
+}
+#slr{
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+h2 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    padding: 20px;
+}
